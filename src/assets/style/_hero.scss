@@ -1,0 +1,46 @@
+.hero {
+    position: relative;
+
+    &-overlay {
+        background: linear-gradient(20deg, rgba($darkBlue, .2), rgba($lightBlue, .2));
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
+
+    &-home {
+        min-height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            color: $textWhite;
+            text-shadow: 0 0 2px $darkBlue;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+        }
+
+        p {
+            color: $textHover;
+            font-size: 3rem;
+            font-weight: 700;
+            text-shadow: 0 0 3px $darkBlue;
+        }
+
+        &-text {
+            height: 100%;
+            flex-direction: column;
+            width: 100%;
+            padding: 1rem 1.5rem;
+            background: linear-gradient(rgba($lightBlue, .05) 10%, rgba($lightBlue, .3), rgba($lightBlue, .3) 90%, rgba($lightBlue, .05));
+            z-index: 3;
+        }
+    }
+}

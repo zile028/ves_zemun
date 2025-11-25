@@ -1,0 +1,41 @@
+.documents {
+    article {
+        margin-top: 3rem;
+
+        &:first-child {
+            margin-top: 0rem;
+        }
+    }
+
+    .subdocuments {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+
+        .card {
+            text-align: center;
+            box-shadow: $boxShadow;
+
+            h4 {
+                font-size: 1.8rem;
+                font-weight: 700;
+            }
+
+            p, a {
+                display: inline-block;
+                margin: 1em 0;
+            }
+
+            a {
+                background: $darkBlue;
+                color: $white;
+                padding: 1rem 1.5rem;
+                border-radius: 3rem;
+
+                span {
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+}

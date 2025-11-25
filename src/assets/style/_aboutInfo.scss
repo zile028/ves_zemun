@@ -1,0 +1,46 @@
+
+.aboutInfo {
+    background: red;
+
+    article {
+        display: flex;
+        position: relative;
+        @media (max-width: 768px) {
+
+        }
+    }
+
+    &-img {
+        width: 40%;
+
+        img {
+            width: 130%;
+        }
+    }
+
+    &-content {
+        width: 60%;
+        position: relative;
+        margin-top: 4rem;
+        background: $white;
+        padding: 5rem;
+        border-radius: 5px;
+        box-shadow: $boxShadow;
+
+        ul {
+            list-style: disc;
+            list-style-position: inside;
+            margin-bottom: 2.5rem;
+
+            li {
+                line-height: 2.4rem;
+                margin-bottom: 1rem;
+
+                &:last-child {
+
+                    margin-bottom: 0rem;
+                }
+            }
+        }
+    }
+}

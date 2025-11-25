@@ -1,0 +1,48 @@
+.contactPage {
+    gap: 2rem;
+
+    .title {
+        color: $darkBlue;
+    }
+
+    &-info {
+
+        ul {
+            li {
+                line-height: 2.4rem;
+                display: flex;
+                gap: .5rem;
+                align-items: center;
+
+                span {
+                    //line-height: 1;
+                }
+            }
+        }
+    }
+
+    &-form {
+
+        input, textarea {
+            border-color: $darkBlue;
+            font-size: 1.6rem;
+        }
+
+        label {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+
+            span {
+                color: $textHover;
+                font-weight: 700;
+            }
+        }
+
+        textarea {
+            height: 200px;
+            resize: none;
+        }
+    }
+}

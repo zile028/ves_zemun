@@ -1,0 +1,38 @@
+.studyLevelsCard {
+    .card {
+    }
+
+    .card-title {
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .card-img-overlay {
+        padding: 2rem;
+        background: rgba($black, .4);
+        transition: $transition;
+        cursor: pointer;
+        backdrop-filter: blur(1px);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3rem;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            flex: 1;
+
+            li {
+
+            }
+        }
+
+        &:hover {
+
+            backdrop-filter: blur(5px);
+        }
+    }
+}

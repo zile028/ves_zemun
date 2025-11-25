@@ -1,0 +1,122 @@
+.navbar {
+    background-color: $darkBlue;
+
+    &-mobile {
+        background: red;
+        padding: 20px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 2rem;
+    }
+
+    &-logo {
+        position: relative;
+        padding: 1rem 0;
+    }
+
+    &-menu {
+
+        a {
+            transition: $transition;
+
+            &:hover {
+                color: $textHover;
+            }
+        }
+
+
+        & > ul {
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            gap: 1.5rem;
+            color: $textWhite;
+
+            .drop {
+                ul {
+                    position: absolute;
+                    top: 150%;
+                    left: -30px;
+                    width: 250px;
+                    background: #ffffff;
+                    box-shadow: 0px 5px 14.25px 0.75px rgba(0, 0, 0, 0.2);
+                    padding: 15px 30px;
+                    z-index: 9999;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: $transition;
+                    color: $darkBlue;
+                    font-weight: 700;
+
+                    li {
+                        color: $textLightBlue;
+                        padding: 10px 0;
+                    }
+                }
+
+                &:hover {
+                    ul {
+                        top: 100%;
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+            }
+
+
+            & > li {
+                display: flex;
+                align-items: center;
+                position: relative;
+                height: 100%;
+            }
+
+            & > li:not(.ignore) {
+                display: flex;
+                align-items: center;
+                position: relative;
+                height: 100%;
+
+                & > span, & > a {
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    cursor: pointer;
+                    position: relative;
+                    transition: $transition;
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        height: 3px;
+                        background-color: $textHover;
+                        width: 100%;
+                        top: 100%;
+                        left: 0;
+                        margin-top: 5px;
+                        transition: $transition;
+                        transform: scaleX(0);
+                        border-radius: 3px;
+                    }
+
+                    &:hover {
+                        color: $textHover;
+
+                        &:after {
+                            transform: scaleX(1);
+                            transform-origin: center center;
+                        }
+                    }
+                }
+
+
+            }
+
+        }
+
+
+    }
+}

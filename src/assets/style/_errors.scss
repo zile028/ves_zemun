@@ -1,0 +1,19 @@
+.error {
+    &-503 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        article {
+            flex: 1;
+            @media (max-width: 1110px) {
+                width: 100%;
+            }
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+    }
+}

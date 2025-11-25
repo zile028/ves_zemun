@@ -1,0 +1,48 @@
+.cButton {
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 1.3rem 3rem;
+    cursor: pointer;
+    color: $textWhite;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    z-index: 1;
+
+    &:before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: $darkBlue;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+
+    &:after {
+        content: "";
+        position: absolute;
+        background: $textHover;
+        height: 100vh;
+        width: 100vw;
+        top: 100%;
+        left: -50%;
+        z-index: -1;
+        transform: rotateX(0deg);
+        transform-origin: left top;
+        transition: transform 0.4s linear;
+    }
+
+    &:hover {
+        &:after {
+            transition: transform .6s linear;
+            transform: rotate(-90deg); // možeš dodati efekat ako želiš npr. rotateX(180deg)
+        }
+    }
+
+}

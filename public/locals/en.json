@@ -1,0 +1,62 @@
+{
+  "home": {
+    "title": "College of Vocational Economic Studies – Belgrade"
+  },
+  "students": {
+    "exam": {
+      "hero": {
+        "title": [
+          "Распоред испита"
+        ]
+      }
+    },
+    "class": {
+      "hero": {
+        "title": [
+          "Распоред предавања"
+        ]
+      }
+    }
+  },
+  "documents": {
+    "accreditation": {
+      "hero": {
+        "title": [
+          "Акредитација"
+        ]
+      }
+    },
+    "acts_regulations": {
+      "hero": {
+        "title": [
+          "Акта и правилници"
+        ]
+      }
+    },
+    "regulations": {
+      "hero": {
+        "title": [
+          "Правилници"
+        ]
+      }
+    },
+    "evaluations": {
+      "hero": {
+        "title": [
+          "Самовредновање"
+        ]
+      }
+    }
+  },
+  "errors": {
+    "error_503": {
+      "title": "Дошло је до грешке",
+      "subtitle": "Поштовани, извињавамо се али страница je још увек у припреми, молимо Вас покушајте касније или зa више информација нас контактирајте.",
+      "button_label": "Почетна"
+    }
+  },
+  "buttons": {
+    "contact": "Contact",
+    "send": "Send"
+  }
+}

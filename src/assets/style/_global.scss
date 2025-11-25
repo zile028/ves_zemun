@@ -1,0 +1,109 @@
+.container {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*
+TEXT COLORS
+ */
+.text {
+    transition: color $transition;
+
+    &-light {
+        &-blue {
+            color: $textLightBlue;
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+        color: $textHover;
+    }
+}
+
+p {
+    line-height: 2.4rem;
+    margin-bottom: 2.5rem;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+
+    &-small {
+        color: $textHover;
+        font-size: 1.4rem;
+        margin-bottom: 0.7rem;
+        line-height: 2.4rem;
+        font-weight: 600;
+    }
+
+    &-line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 3rem;
+        font-size: 2.5rem;
+
+        span {
+            font-weight: 700;
+        }
+
+        &:after {
+            content: "";
+            display: block;
+            flex: 1;
+            height: 3px;
+            background: tomato;
+        }
+    }
+}
+
+
+.atachmentDocument {
+
+    text-align: center;
+    box-shadow: $boxShadow;
+
+    h4 {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    p, a {
+        display: inline-block;
+        margin: 1em 0;
+    }
+
+    a {
+        background: $darkBlue;
+        color: $white;
+        padding: 1rem 1.5rem;
+        border-radius: 3rem;
+
+        span {
+            margin-left: 1rem;
+        }
+    }
+
+}
+
+.py {
+    padding: 8rem 0;
+}
