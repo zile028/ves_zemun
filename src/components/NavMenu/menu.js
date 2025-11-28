@@ -1,5 +1,5 @@
 export const menuList = [
-    
+
     {
         label: "О нама",
         path: null,
@@ -30,13 +30,6 @@ export const menuList = [
             {
                 label: "Ненаставно особље",
                 path: "/about/administrative-staff",
-                drop: false,
-                active: true,
-                submenu: []
-            },
-            {
-                label: "Ценовник",
-                path: "/about/costs",
                 drop: false,
                 active: true,
                 submenu: []

@@ -1,12 +1,13 @@
 import React from 'react';
 import Hero from "@/components/Hero/Hero.jsx";
-import {studyData} from "@/data/studyData.js";
+
 import Document from "@/components/Documents/Document.jsx";
 import {filePath} from "@/utils/helperFunctions.js";
+import {StudyData} from "@/server_actions/Study";
 
 const StudyLevelPage = async ({params}) => {
     let {level} = await params;
-    let study = studyData[level];
+    let study = await StudyData(level);
     return (<>
             <Hero title={["Студије"]} subtitle={study.level} image={filePath("hero_study.jpg")}/>
             <section className="documents container py">

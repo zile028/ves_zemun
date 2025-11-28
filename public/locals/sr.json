@@ -55,6 +55,20 @@
       }
     }
   },
+  "about": {
+    "council": [
+      "Савет"
+    ],
+    "management": [
+      "Руководство"
+    ],
+    "academic-staff": [
+      "Наставно особље"
+    ],
+    "administrative-staff": [
+      "Ненаставно особље"
+    ]
+  },
   "errors": {
     "error_503": {
       "title": "Дошло је до грешке",

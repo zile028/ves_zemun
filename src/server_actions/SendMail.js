@@ -27,6 +27,4 @@ export const SendMail = async (formData) => {
     } catch (error) {
         throw {success: false, message: error.message};
     }
-
-
 };

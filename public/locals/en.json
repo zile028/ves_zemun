@@ -48,6 +48,20 @@
       }
     }
   },
+  "about": {
+    "council": [
+      "Council"
+    ],
+    "management": [
+      "Management"
+    ],
+    "academic-staff": [
+      "Academic staff"
+    ],
+    "administrative-staff": [
+      "Administrative staff"
+    ]
+  },
   "errors": {
     "error_503": {
       "title": "Дошло је до грешке",

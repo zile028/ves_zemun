@@ -34,8 +34,6 @@ export const metadata = {
         locale: 'sr_RS',
         type: 'website'
     }
-
-
 };
 
 export default function RootLayout({children}) {

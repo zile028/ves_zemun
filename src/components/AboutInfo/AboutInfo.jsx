@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import Button from "@/components/Button/Button.jsx";
 import {filePath} from "@/utils/helperFunctions.js";
