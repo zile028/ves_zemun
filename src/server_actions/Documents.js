@@ -26,7 +26,7 @@ const documentsData = {
                 {
                     title: "Акт о организацији",
                     subtitle: "Прилог 2.2",
-                    src: "Osnivacka dokumenta i Statut/Prilog_2.2.pdf"
+                    src: "Osnivacka_dokumenta_i_Statut/Prilog_2.2.pdf"
                 },
                 {
                     title: "Одлука о именовању Савета школе",
