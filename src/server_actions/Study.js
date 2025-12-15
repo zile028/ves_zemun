@@ -30,6 +30,11 @@ const studyData = {
                         src: "Studijski programi/OSS Poslovna ekonomija/knjiga_predmeta.pdf"
                     },
                     {
+                        title: "Књига наставника",
+                        subtitle: "Табела",
+                        src: "Studijski programi/OSS Poslovna ekonomija/knjiga_nastavnika.pdf"
+                    },
+                    {
                         title: "Структура студијског програма",
                         subtitle: "Стандард 1",
                         src: "Studijski programi/OSS Poslovna ekonomija/Standard 1.pdf"
@@ -84,6 +89,11 @@ const studyData = {
                         src: "Studijski programi/SSS Poslovno upravljanje/knjiga_predmeta.pdf"
                     },
                     {
+                        title: "Књига наставника",
+                        subtitle: "Табела",
+                        src: "Studijski programi/SSS Poslovno upravljanje/knjiga_nastavnika.pdf"
+                    },
+                    {
                         title: "Структура студијског програма",
                         subtitle: "Стандард 1",
                         src: "Studijski programi/SSS Poslovno upravljanje/Standard 1.pdf"
@@ -136,6 +146,11 @@ const studyData = {
                         title: "Књига предмета",
                         subtitle: "Табела",
                         src: "Studijski programi/MSS Ekonomija i biznis/knjiga_predmeta.pdf"
+                    },
+                    {
+                        title: "Књига наставника",
+                        subtitle: "Табела",
+                        src: "Studijski programi/MSS Ekonomija i biznis/knjiga_nastavnika .pdf"
                     },
                     {
                         title: "Структура студијског програма",
