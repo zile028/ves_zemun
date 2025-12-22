@@ -33,7 +33,7 @@ const Footer = () => {
                                     </li>
                                     <li>
                                         <FaPhone/>
-                                        <span className="ms-3">(+381) 11 3771-552</span>
+                                        <span className="ms-3">(+381) 63 102-37-03</span>
                                     </li>
                                     <li className="ignore">
                                         <FaEnvelope/>

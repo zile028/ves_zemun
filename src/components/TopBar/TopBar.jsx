@@ -7,7 +7,7 @@ const TopBar = () => {
     return <section className="topbar">
         <article className="container">
             <ul className="">
-                <li className="text text-light-blue"><FaPhoneSquareAlt/><span>(+381) 11 3771-552</span></li>
+                <li className="text text-light-blue"><FaPhoneSquareAlt/><span>(+381) 63 102-37-03 </span></li>
                 <li className="text text-light-blue"><FaEnvelope/><span>office@visoka-ekonomska.edu.rs</span></li>
             </ul>
         </article>
